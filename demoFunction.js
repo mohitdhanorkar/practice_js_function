@@ -24,8 +24,8 @@
 
 //   // Arrow function---- JavaScript arrow function allows us to create shortest function syntax.
 
-//   let myFunction = (a, b) => a*b;
-//   console.log(myFunction(4,5));
+  let myFunction = (a, b) => a*b;
+  console.log(myFunction(4,5));
 
   //Synchronous function---- It means javascript engine execute the code line by line, it's totally depends on each  other
   // const function1 = () => {
