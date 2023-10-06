@@ -33,6 +33,11 @@
 // let slicePerson = person11.slice(1,6);
 // console.log(slicePerson)
 
-// Array.sort()
-let al = ['a', 'p', 'r', 't', 'd'];
-console.log(al.sort())
+// // Array.sort()
+// let al = ['a', 'p', 'r', 't', 'd'];
+// console.log(al.sort())
+
+// Array.splice() --- here we can replace or add something with the help of index 
+let cars = ['Swift', 'Benz', 'Maruti', 'Verna', 'Polo'];
+let removeCars = cars.splice(1,2, 'Alto', 'Balano');
+console.log(cars)
