@@ -19,6 +19,11 @@
 // object1.pop();
 // console.log(object1)
 
-// Array.reverse()
-const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
-console.log(fruits2.reverse());
+// // Array.reverse()
+// const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
+// console.log(fruits2.reverse());
+
+// Array.shift()
+let fruitsA1 = ['Papaya', 'Berry', 'Guva'];
+let firstFruit = fruitsA1.shift(); // 'Papaya'
+console.log(firstFruit)  // ['Berry', 'Guva']
