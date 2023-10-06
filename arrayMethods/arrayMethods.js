@@ -23,10 +23,10 @@
 // const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
 // console.log(fruits2.reverse());
 
-// // Array.shift()
-// let fruitsA1 = ['Papaya', 'Berry', 'Guva'];
-// let firstFruit = fruitsA1.shift(); // 'Papaya'
-// console.log(firstFruit)  // ['Berry', 'Guva']
+// Array.shift()
+let fruitsA1 = ['Papaya', 'Berry', 'Guva'];
+let firstFruit = fruitsA1.shift(); // 'Papaya'
+console.log(fruitsA1)  // ['Berry', 'Guva']
 
 //Array.slice()
 let person11 = ['Amit', 'Sumit', 'Harshal', 'Abhishek', 'Saish', 'Swapnil', 'Aditya'];
