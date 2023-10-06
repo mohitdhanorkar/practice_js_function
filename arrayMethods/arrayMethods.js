@@ -37,7 +37,12 @@
 // let al = ['a', 'p', 'r', 't', 'd'];
 // console.log(al.sort())
 
-// Array.splice() --- here we can replace or add something with the help of index 
-let cars = ['Swift', 'Benz', 'Maruti', 'Verna', 'Polo'];
-let removeCars = cars.splice(1,2, 'Alto', 'Balano');
-console.log(cars)
+// // Array.splice() --- here we can replace or add something with the help of index 
+// let cars = ['Swift', 'Benz', 'Maruti', 'Verna', 'Polo'];
+// let removeCars = cars.splice(1,2, 'Alto', 'Balano');
+// console.log(cars)
+
+// Array.toString() 
+const fruits = ["Banana", "Orange", "Apple", "Mango"];
+let text = fruits.toString();
+console.log(text)
