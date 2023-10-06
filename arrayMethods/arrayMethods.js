@@ -14,7 +14,11 @@
 // object.push("Steel", "Buds");
 // console.log(object);
 
-// Array.pop() 
-const object1 = ["Pen", "Pencil", "Page", "Charger", "Nose"]
-object1.pop();
-console.log(object1)
+// // Array.pop() 
+// const object1 = ["Pen", "Pencil", "Page", "Charger", "Nose"]
+// object1.pop();
+// console.log(object1)
+
+// Array.reverse()
+const fruits2 = ["Banana", "Orange", "Apple", "Mango"];
+console.log(fruits2.reverse());
