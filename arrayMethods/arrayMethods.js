@@ -9,7 +9,12 @@
 //     return num*10;
 // }
 
-// Array.push()
-const object = ["Wood", "Pen", "Rubber", "Sharpner"];
-object.push("Steel", "Buds");
-console.log(object);
+// // Array.push()
+// const object = ["Wood", "Pen", "Rubber", "Sharpner"];
+// object.push("Steel", "Buds");
+// console.log(object);
+
+// Array.pop() 
+const object1 = ["Pen", "Pencil", "Page", "Charger", "Nose"]
+object1.pop();
+console.log(object1)
