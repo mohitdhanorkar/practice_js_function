@@ -43,6 +43,11 @@
 // console.log(cars)
 
 // Array.toString() 
-const fruits = ["Banana", "Orange", "Apple", "Mango"];
-let text = fruits.toString();
-console.log(text)
+// const fruits = ["Banana", "Orange", "Apple", "Mango"];
+// let text = fruits.toString();
+// console.log(text)
+
+// Array.unshift()
+let person01 = ['Mohit', 'Pranav'];
+let addPerson = person01.unshift('Rohit');
+console.log(person01) // ['Rohit', 'Mohit', 'Pranav']
